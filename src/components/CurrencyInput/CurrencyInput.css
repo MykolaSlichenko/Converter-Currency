@@ -1,0 +1,28 @@
+.group {
+  width: 290px;
+  margin: 0 auto 10px;
+  display: grid;
+  grid-template-columns: 175px 112px;
+}
+.input-field {
+  background: #414141;
+  padding-left: 10px;
+  color: white;
+  font-size: 20px;
+}
+.select-currency {
+  background: #454545;
+  padding: 15px;
+  background: none;
+  background-color: #444444;
+  border: 0;
+  color: white;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance:textfield;
+}
